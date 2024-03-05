@@ -1,3 +1,5 @@
+#Alternativa 1
+
 name = input("Digite o seu nome:\n")
 """"
 Arquivos mode:
@@ -6,5 +8,9 @@ Arquivos mode:
 3- opção r - read
 """
 file = open("names.txt", "a")
-file.write(name)
+file.write(f"{name}\n")
 file.close()
+
+#Alternativa 2
+with open("name.txt", "a") as file:
+    file.write(f"{name}\n")
