@@ -5,6 +5,6 @@ Arquivos mode:
 1- opção a - append
 3- opção r - read
 """
-file = open("names.txt", "w")
+file = open("names.txt", "a")
 file.write(name)
 file.close()
