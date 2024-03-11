@@ -1,0 +1,13 @@
+courses = []
+
+with open("dados/courses.csv", "r", encoding="utf-8") as file:
+    for line in file:
+        language, category = line.rstrip().split(",")
+        course = {}
+        #  Dicionario nesse caso vai ficar dentro de uma lista
+        course["language"] = language
+        course["category"] = category
+        courses.append(course)
+
+for course in courses:
+    print(f'{course["language"]} - {course["category"]}')
