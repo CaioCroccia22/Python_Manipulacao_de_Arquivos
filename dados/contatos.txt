@@ -2,7 +2,3 @@ Nome: Caio
 Endereço: Av siqueira campos
 Telefone: 12123232
 
-Nome: Ruan
-Endereço: Conselheiro Nébias
-Telefone: 12121212
-
